@@ -6,6 +6,27 @@ __pycache__/
 # C extensions
 *.so
 
+
+
+.venv/
+.env
+auth_states/admin_state.json
+auth_states/user_state.json
+reports/screenshots/*
+reports/videos/*
+reports/traces/*
+reports/html/*
+reports/junit/*
+!reports/screenshots/.gitkeep
+!reports/videos/.gitkeep
+!reports/traces/.gitkeep
+!reports/html/.gitkeep
+!reports/junit/.gitkeep
+__pycache__/
+*.pyc
+.pytest_cache/
+
+
 # Distribution / packaging
 .Python
 build/
