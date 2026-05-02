@@ -7,7 +7,6 @@ __pycache__/
 *.so
 
 
-
 .venv/
 .env
 auth_states/admin_state.json
