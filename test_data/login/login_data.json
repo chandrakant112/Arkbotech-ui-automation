@@ -1,0 +1,82 @@
+{
+  "valid_user": {
+    "email": "admin",
+    "password": "arkboSpr1"
+  },
+  "case_insensitive": {
+    "uppercase_email": {
+      "email": "ADMIN",
+      "password": "arkboSpr1"
+    }
+  },
+  "invalid_combinations": {
+    "wrong_email_wrong_password": {
+      "email": "wronguser",
+      "password": "wrongpassword"
+    },
+    "wrong_email_correct_password": {
+      "email": "wronguser",
+      "password": "arkboSpr1"
+    },
+    "correct_email_wrong_password": {
+      "email": "admin",
+      "password": "wrongpassword"
+    },
+    "empty_email_empty_password": {
+      "email": "",
+      "password": ""
+    },
+    "empty_email_correct_password": {
+      "email": "",
+      "password": "arkboSpr1"
+    },
+    "correct_email_empty_password": {
+      "email": "admin",
+      "password": ""
+    },
+    "spaces_only_email": {
+      "email": "   ",
+      "password": "arkboSpr1"
+    },
+    "spaces_only_password": {
+      "email": "admin",
+      "password": "   "
+    },
+    "sql_injection_email": {
+      "email": "' OR '1'='1",
+      "password": "arkboSpr1"
+    },
+    "sql_injection_password": {
+      "email": "admin",
+      "password": "' OR '1'='1"
+    },
+    "special_characters_email": {
+      "email": "!@#$%^&*()",
+      "password": "arkboSpr1"
+    },
+    "special_characters_password": {
+      "email": "admin",
+      "password": "!@#$%^&*()"
+    },
+    "very_long_email": {
+      "email": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "password": "arkboSpr1"
+    },
+    "very_long_password": {
+      "email": "admin",
+      "password": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "email_with_spaces": {
+      "email": " admin ",
+      "password": "arkboSpr1"
+    },
+    "numeric_only_email": {
+      "email": "123456",
+      "password": "arkboSpr1"
+    },
+    "numeric_only_password": {
+      "email": "admin",
+      "password": "123456"
+    }
+  }
+}
