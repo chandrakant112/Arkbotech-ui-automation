@@ -14,6 +14,5 @@ def get_context_options() -> dict:
         "ignore_https_errors": True,
     }
 
-
 def get_browser_type() -> str:
     return settings.BROWSER.lower()

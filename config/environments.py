@@ -23,6 +23,7 @@ ENVIRONMENTS = {
 }
 
 
+
 def get_base_url() -> str:
     env = settings.ENVIRONMENT.lower()
     if env not in ENVIRONMENTS:

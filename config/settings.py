@@ -3,7 +3,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
 class Settings:
     # Environment
     ENVIRONMENT: str = os.getenv("ENVIRONMENT", "dev")
