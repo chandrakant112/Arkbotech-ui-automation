@@ -5,8 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
-
-
+test_data/login/login_data.json
+.env example
 .venv/
 .env
 auth_states/admin_state.json

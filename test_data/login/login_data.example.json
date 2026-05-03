@@ -1,12 +1,12 @@
 {
   "valid_user": {
-    "email": "admin",
-    "password": "arkboSpr1"
+    "email": "your_username_here",
+    "password": "your_password_here"
   },
   "case_insensitive": {
     "uppercase_email": {
-      "email": "ADMIN",
-      "password": "arkboSpr1"
+      "email": "YOUR_USERNAME_HERE",
+      "password": "your_password_here"
     }
   },
   "invalid_combinations": {
@@ -16,10 +16,10 @@
     },
     "wrong_email_correct_password": {
       "email": "wronguser",
-      "password": "arkboSpr1"
+      "password": "your_password_here"
     },
     "correct_email_wrong_password": {
-      "email": "admin",
+      "email": "your_username_here",
       "password": "wrongpassword"
     },
     "empty_email_empty_password": {
@@ -28,54 +28,54 @@
     },
     "empty_email_correct_password": {
       "email": "",
-      "password": "arkboSpr1"
+      "password": "your_password_here"
     },
     "correct_email_empty_password": {
-      "email": "admin",
+      "email": "your_username_here",
       "password": ""
     },
     "spaces_only_email": {
       "email": "   ",
-      "password": "arkboSpr1"
+      "password": "your_password_here"
     },
     "spaces_only_password": {
-      "email": "admin",
+      "email": "your_username_here",
       "password": "   "
     },
     "sql_injection_email": {
       "email": "' OR '1'='1",
-      "password": "arkboSpr1"
+      "password": "your_password_here"
     },
     "sql_injection_password": {
-      "email": "admin",
+      "email": "your_username_here",
       "password": "' OR '1'='1"
     },
     "special_characters_email": {
       "email": "!@#$%^&*()",
-      "password": "arkboSpr1"
+      "password": "your_password_here"
     },
     "special_characters_password": {
-      "email": "admin",
+      "email": "your_username_here",
       "password": "!@#$%^&*()"
     },
     "very_long_email": {
       "email": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "password": "arkboSpr1"
+      "password": "your_password_here"
     },
     "very_long_password": {
-      "email": "admin",
+      "email": "your_username_here",
       "password": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
     },
     "email_with_spaces": {
-      "email": " admin ",
-      "password": "arkboSpr1"
+      "email": " your_username_here ",
+      "password": "your_password_here"
     },
     "numeric_only_email": {
       "email": "123456",
-      "password": "arkboSpr1"
+      "password": "your_password_here"
     },
     "numeric_only_password": {
-      "email": "admin",
+      "email": "your_username_here",
       "password": "123456"
     }
   }
